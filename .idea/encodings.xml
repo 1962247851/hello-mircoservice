@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-feign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-common/ordinaryroad-common-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-register/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-register/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-upms/ordinaryroad-upms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-upms/ordinaryroad-upms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-upms/ordinaryroad-upms-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-upms/ordinaryroad-upms-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-codegen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-codegen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-sentinel-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-sentinel-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-sentinel-dashboard/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordinaryroad/ordinaryroad-visual/ordinaryroad-xxl-job-admin/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

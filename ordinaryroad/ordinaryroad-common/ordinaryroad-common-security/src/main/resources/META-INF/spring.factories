@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  tech.ordinaryroad.ordinaryroad.common.security.service.OrdinaryroadUserDetailsServiceImpl,\
+  tech.ordinaryroad.ordinaryroad.common.security.component.OrdinaryroadSecurityInnerAspect
+

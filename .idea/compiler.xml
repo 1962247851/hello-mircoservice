@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ordinaryroad-gateway" />
+        <module name="ordinaryroad-register" />
+        <module name="ordinaryroad-common-feign" />
+        <module name="ordinaryroad-common-log" />
+        <module name="ordinaryroad-sentinel-dashboard" />
+        <module name="ordinaryroad-common-core" />
+        <module name="ordinaryroad-auth" />
+        <module name="ordinaryroad-common-mybatis" />
+        <module name="ordinaryroad-common-security" />
+        <module name="ordinaryroad-common-job" />
+        <module name="ordinaryroad-common-test" />
+        <module name="ordinaryroad-common-swagger" />
+        <module name="ordinaryroad-upms-biz" />
+        <module name="ordinaryroad-upms-api" />
+        <module name="ordinaryroad-xxl-job-admin" />
+        <module name="ordinaryroad-common-datasource" />
+        <module name="ordinaryroad-codegen" />
+        <module name="ordinaryroad-monitor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ordinaryroad" target="1.8" />
+      <module name="ordinaryroad-auth" target="1.8" />
+      <module name="ordinaryroad-codegen" target="1.8" />
+      <module name="ordinaryroad-common" target="1.8" />
+      <module name="ordinaryroad-common-bom" target="1.8" />
+      <module name="ordinaryroad-common-core" target="1.8" />
+      <module name="ordinaryroad-common-datasource" target="1.8" />
+      <module name="ordinaryroad-common-feign" target="1.8" />
+      <module name="ordinaryroad-common-job" target="1.8" />
+      <module name="ordinaryroad-common-log" target="1.8" />
+      <module name="ordinaryroad-common-mybatis" target="1.8" />
+      <module name="ordinaryroad-common-security" target="1.8" />
+      <module name="ordinaryroad-common-swagger" target="1.8" />
+      <module name="ordinaryroad-common-test" target="1.8" />
+      <module name="ordinaryroad-gateway" target="1.8" />
+      <module name="ordinaryroad-monitor" target="1.8" />
+      <module name="ordinaryroad-register" target="1.8" />
+      <module name="ordinaryroad-sentinel-dashboard" target="1.8" />
+      <module name="ordinaryroad-upms" target="1.8" />
+      <module name="ordinaryroad-upms-api" target="1.8" />
+      <module name="ordinaryroad-upms-biz" target="1.8" />
+      <module name="ordinaryroad-visual" target="1.8" />
+      <module name="ordinaryroad-xxl-job-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

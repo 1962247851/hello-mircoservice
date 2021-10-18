@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.fallback.RemoteUserServiceFallbackImpl,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.fallback.RemoteLogServiceFallbackImpl,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.fallback.RemoteTokenServiceFallbackImpl,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.fallback.RemoteDeptServiceFallbackImpl,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.factory.RemoteUserServiceFallbackFactory,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.factory.RemoteLogServiceFallbackFactory,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.factory.RemoteTokenServiceFallbackFactory,\
+  tech.ordinaryroad.ordinaryroad.admin.api.feign.factory.RemoteDeptServiceFallbackFactory

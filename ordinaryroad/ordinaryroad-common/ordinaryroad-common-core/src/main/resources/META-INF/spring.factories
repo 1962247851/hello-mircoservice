@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  tech.ordinaryroad.ordinaryroad.common.core.config.JacksonConfiguration,\
+  tech.ordinaryroad.ordinaryroad.common.core.config.RedisTemplateConfiguration,\
+  tech.ordinaryroad.ordinaryroad.common.core.config.RestTemplateConfiguration,\
+  tech.ordinaryroad.ordinaryroad.common.core.util.SpringContextHolder,\
+  tech.ordinaryroad.ordinaryroad.common.core.config.WebMvcConfiguration

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    tech.ordinaryroad.ordinaryroad.common.log.LogAutoConfiguration
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    tech.ordinaryroad.ordinaryroad.common.log.init.ApplicationLoggerInitializer

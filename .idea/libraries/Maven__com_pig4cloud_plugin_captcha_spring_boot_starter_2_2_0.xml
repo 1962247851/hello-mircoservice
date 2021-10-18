@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.pig4cloud.plugin:captcha-spring-boot-starter:2.2.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/pig4cloud/plugin/captcha-spring-boot-starter/2.2.0/captcha-spring-boot-starter-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/pig4cloud/plugin/captcha-spring-boot-starter/2.2.0/captcha-spring-boot-starter-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/pig4cloud/plugin/captcha-spring-boot-starter/2.2.0/captcha-spring-boot-starter-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

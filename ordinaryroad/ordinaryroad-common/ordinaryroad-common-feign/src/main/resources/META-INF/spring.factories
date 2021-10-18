@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    tech.ordinaryroad.ordinaryroad.common.feign.OrdinaryroadFeignAutoConfiguration,\
+    tech.ordinaryroad.ordinaryroad.common.feign.handle.GlobalBizExceptionHandler

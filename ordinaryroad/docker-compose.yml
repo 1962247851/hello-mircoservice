@@ -1,0 +1,93 @@
+version: '2'
+services:
+  ordinaryroad-mysql:
+    build:
+      context: ./db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    restart: always
+    container_name: ordinaryroad-mysql
+    image: ordinaryroad-mysql
+    ports:
+      - 3306:3306
+
+  ordinaryroad-redis:
+    image: redis:6.0
+    ports:
+      - 6379:6379
+    restart: always
+    container_name: ordinaryroad-redis
+    hostname: ordinaryroad-redis
+
+  ordinaryroad-register:
+    build:
+      context: ./ordinaryroad-register
+    restart: always
+    ports:
+      - 8848:8848
+    container_name: ordinaryroad-register
+    hostname: ordinaryroad-register
+    image: ordinaryroad-register
+
+  ordinaryroad-gateway:
+    build:
+      context: ./ordinaryroad-gateway
+    restart: always
+    ports:
+      - 9999:9999
+    container_name: ordinaryroad-gateway
+    hostname: ordinaryroad-gateway
+    image: ordinaryroad-gateway
+
+  ordinaryroad-auth:
+    build:
+      context: ./ordinaryroad-auth
+    restart: always
+    container_name: ordinaryroad-auth
+    hostname: ordinaryroad-auth
+    image: ordinaryroad-auth
+
+  ordinaryroad-upms:
+    build:
+      context: ./ordinaryroad-upms/ordinaryroad-upms-biz
+    restart: always
+    container_name: ordinaryroad-upms
+    hostname: ordinaryroad-upms
+    image: ordinaryroad-upms
+
+  ordinaryroad-monitor:
+    build:
+      context: ./ordinaryroad-visual/ordinaryroad-monitor
+    restart: always
+    ports:
+      - 5001:5001
+    container_name: ordinaryroad-monitor
+    hostname: ordinaryroad-monitor
+    image: ordinaryroad-monitor
+
+  ordinaryroad-sentinel:
+    build:
+      context: ./ordinaryroad-visual/ordinaryroad-sentinel-dashboard
+    restart: always
+    image: ordinaryroad-sentinel
+    container_name: ordinaryroad-sentinel
+    ports:
+      - 5003:5003
+
+  ordinaryroad-codegen:
+    build:
+      context: ./ordinaryroad-visual/ordinaryroad-codegen
+    restart: always
+    container_name: ordinaryroad-codegen
+    hostname: ordinaryroad-codegen
+    image: ordinaryroad-codegen
+
+  ordinaryroad-job:
+    build:
+      context: ./ordinaryroad-visual/ordinaryroad-xxl-job-admin
+    restart: always
+    container_name: ordinaryroad-job
+    hostname: ordinaryroad-job
+    image: ordinaryroad-job
+    ports:
+      - 5004:5004
