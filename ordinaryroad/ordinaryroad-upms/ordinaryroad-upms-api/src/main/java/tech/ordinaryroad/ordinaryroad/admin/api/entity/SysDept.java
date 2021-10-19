@@ -38,7 +38,7 @@ import javax.validation.constraints.NotBlank;
 @EqualsAndHashCode(callSuper = true)
 public class SysDept extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -3380538858664544745L;
 
 	@TableId(value = "dept_id", type = IdType.AUTO)
 	@ApiModelProperty(value = "部门id")

@@ -42,7 +42,7 @@ import javax.validation.constraints.NotBlank;
 @EqualsAndHashCode(callSuper = true)
 public class SysLog extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 3025019230197369399L;
 
 	/**
 	 * 编号

@@ -37,7 +37,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysUser extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -3414334701559191014L;
 
 	/**
 	 * 主键ID

@@ -33,7 +33,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysDeptRelation extends Model<SysDeptRelation> {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 8391252024383676527L;
 
 	/**
 	 * 祖先节点

@@ -34,7 +34,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysFile extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -9039705571061425777L;
 
 	/**
 	 * 编号

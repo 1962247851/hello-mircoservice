@@ -39,7 +39,7 @@ import javax.validation.constraints.NotNull;
 @EqualsAndHashCode(callSuper = true)
 public class SysRole extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 7389134506249837874L;
 
 	@TableId(value = "role_id", type = IdType.AUTO)
 	@ApiModelProperty(value = "角色编号")

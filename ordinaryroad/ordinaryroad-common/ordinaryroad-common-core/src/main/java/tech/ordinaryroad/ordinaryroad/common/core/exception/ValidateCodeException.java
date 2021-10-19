@@ -22,7 +22,7 @@ package tech.ordinaryroad.ordinaryroad.common.core.exception;
  */
 public class ValidateCodeException extends RuntimeException {
 
-	private static final long serialVersionUID = -7285211528095468156L;
+	private static final long serialVersionUID = -2121240792803572189L;
 
 	public ValidateCodeException() {
 	}

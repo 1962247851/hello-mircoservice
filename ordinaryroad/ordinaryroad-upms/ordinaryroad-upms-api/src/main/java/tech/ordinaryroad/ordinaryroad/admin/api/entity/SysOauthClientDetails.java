@@ -37,7 +37,7 @@ import javax.validation.constraints.NotBlank;
 @EqualsAndHashCode(callSuper = true)
 public class SysOauthClientDetails extends BaseEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 3635171878659532617L;
 
 	/**
 	 * 客户端ID
