@@ -57,13 +57,6 @@ public class SysRole extends BaseEntity {
 	@ApiModelProperty(value = "角色描述")
 	private String roleDesc;
 
-	@NotNull(message = "数据范围类型 不能为null")
-	@ApiModelProperty(value = "数据范围类型")
-	private Integer scopeType;
-
-	@ApiModelProperty(value = "数据范围资源")
-	private String scopeResources;
-
 	/**
 	 * 删除标识（0-正常,1-删除）
 	 */
