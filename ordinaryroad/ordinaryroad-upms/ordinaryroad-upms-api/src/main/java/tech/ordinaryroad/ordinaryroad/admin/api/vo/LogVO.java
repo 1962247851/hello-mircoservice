@@ -28,7 +28,7 @@ import java.io.Serializable;
 @Data
 public class LogVO implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -148788121174506352L;
 
 	private SysLog sysLog;
 

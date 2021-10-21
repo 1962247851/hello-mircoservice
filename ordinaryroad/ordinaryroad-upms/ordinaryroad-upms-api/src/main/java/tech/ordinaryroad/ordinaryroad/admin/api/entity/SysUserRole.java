@@ -33,7 +33,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class SysUserRole extends Model<SysUserRole> {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -1630120198440303240L;
 
 	/**
 	 * 用户ID

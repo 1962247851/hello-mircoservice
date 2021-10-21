@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 @ColumnWidth(30)
 public class UserExcelVO implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -3351458053156480424L;
 
 	/**
 	 * 主键ID

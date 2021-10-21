@@ -30,7 +30,7 @@ import java.util.List;
 @Data
 public class UserVO implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -2240800490773298365L;
 
 	/**
 	 * 主键ID

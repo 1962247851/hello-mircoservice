@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OrdinaryroadDeniedException extends RuntimeException {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 6461059055409106056L;
 
 	public OrdinaryroadDeniedException(String message) {
 		super(message);
