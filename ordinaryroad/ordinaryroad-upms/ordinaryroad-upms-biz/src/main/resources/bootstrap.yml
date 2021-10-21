@@ -15,3 +15,8 @@ spring:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
   profiles:
     active: @profiles.active@
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 512MB

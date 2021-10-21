@@ -56,5 +56,10 @@
 			<groupId>com.pig4cloud.excel</groupId>
 			<artifactId>excel-spring-boot-starter</artifactId>
 		</dependency>
+		<!--图片压缩依赖-->
+		<dependency>
+			<groupId>net.coobird</groupId>
+			<artifactId>thumbnailator</artifactId>
+		</dependency>
 	</dependencies>
 </project>
