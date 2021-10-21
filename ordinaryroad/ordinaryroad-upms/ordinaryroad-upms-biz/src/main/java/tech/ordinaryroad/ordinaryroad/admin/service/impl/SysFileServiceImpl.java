@@ -96,7 +96,8 @@ public class SysFileServiceImpl extends ServiceImpl<SysFileMapper, SysFile> impl
 		// 缩略图
 		InputStream inputStream = file.getInputStream();
 		try {
-			File outFile = FileUtil.createTempFile(FileUtil.extName(fileName), StrUtil.DOT + FileUtil.getSuffix(fileName), FileUtil.getTmpDir(), false);
+			File outFile = FileUtil.createTempFile(thumbnailBucketName + "_" + FileUtil.getPrefix(fileName),
+					StrUtil.DOT + FileUtil.getSuffix(fileName), FileUtil.getTmpDir(), false);
 			Thumbnails.of(inputStream).scale(1.0f).outputQuality(0.5f).toFile(outFile);
 
 			minioTemplate.createBucket(thumbnailBucketName);
