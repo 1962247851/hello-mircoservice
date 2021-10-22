@@ -38,6 +38,11 @@ public class UserVO implements Serializable {
 	private Integer userId;
 
 	/**
+	 * 主键UUID
+	 */
+	private String uuid;
+
+	/**
 	 * 用户名
 	 */
 	private String username;

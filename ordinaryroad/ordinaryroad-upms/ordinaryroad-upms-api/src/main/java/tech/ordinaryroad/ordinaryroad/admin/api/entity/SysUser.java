@@ -20,10 +20,10 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import tech.ordinaryroad.ordinaryroad.common.mybatis.base.BaseEntity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import tech.ordinaryroad.ordinaryroad.common.mybatis.base.BaseEntity;
 
 /**
  * <p>
@@ -38,6 +38,12 @@ import lombok.EqualsAndHashCode;
 public class SysUser extends BaseEntity {
 
 	private static final long serialVersionUID = -3414334701559191014L;
+
+	/**
+	 * 主键UUID
+	 */
+	@ApiModelProperty(value = "主键uuid")
+	private String uuid;
 
 	/**
 	 * 主键ID
