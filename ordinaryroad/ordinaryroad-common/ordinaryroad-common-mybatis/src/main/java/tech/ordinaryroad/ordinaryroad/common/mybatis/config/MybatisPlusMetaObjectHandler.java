@@ -1,5 +1,6 @@
 package tech.ordinaryroad.ordinaryroad.common.mybatis.config;
 
+import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import lombok.extern.slf4j.Slf4j;
@@ -7,6 +8,7 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.util.ClassUtils;
+import tech.ordinaryroad.ordinaryroad.common.security.service.OrdinaryroadUser;
 
 import java.nio.charset.Charset;
 import java.time.LocalDateTime;
@@ -25,10 +27,10 @@ public class MybatisPlusMetaObjectHandler implements MetaObjectHandler {
 		log.debug("mybatis plus start insert fill ....");
 		LocalDateTime now = LocalDateTime.now();
 
+		fillValIfNullByName("uuid", IdUtil.fastSimpleUUID(), metaObject, false);
+		fillValIfNullByName("userUuid", getUserUuid(), metaObject, false);
 		fillValIfNullByName("createTime", now, metaObject, false);
-		fillValIfNullByName("updateTime", now, metaObject, false);
 		fillValIfNullByName("createBy", getUserName(), metaObject, false);
-		fillValIfNullByName("updateBy", getUserName(), metaObject, false);
 	}
 
 	@Override
@@ -40,6 +42,7 @@ public class MybatisPlusMetaObjectHandler implements MetaObjectHandler {
 
 	/**
 	 * 填充值，先判断是否有手动设置，优先手动设置的值，例如：job必须手动设置
+	 *
 	 * @param fieldName 属性名
 	 * @param fieldVal 属性值
 	 * @param metaObject MetaObject
@@ -65,12 +68,30 @@ public class MybatisPlusMetaObjectHandler implements MetaObjectHandler {
 
 	/**
 	 * 获取 spring security 当前的用户名
+	 *
 	 * @return 当前用户名
 	 */
 	private String getUserName() {
 		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 		if (Optional.ofNullable(authentication).isPresent()) {
 			return authentication.getName();
+		}
+		return null;
+	}
+
+	/**
+	 * 获取 spring security 当前的用户UUID
+	 *
+	 * @return 当前用户UUID
+	 */
+	private String getUserUuid() {
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		if (Optional.ofNullable(authentication).isPresent()) {
+			Object principal = authentication.getPrincipal();
+			if (principal instanceof OrdinaryroadUser) {
+				OrdinaryroadUser user = (OrdinaryroadUser) principal;
+				return user.getUuid();
+			}
 		}
 		return null;
 	}

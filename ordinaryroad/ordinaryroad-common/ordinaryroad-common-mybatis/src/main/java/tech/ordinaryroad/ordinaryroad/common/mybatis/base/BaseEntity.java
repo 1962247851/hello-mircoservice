@@ -19,6 +19,12 @@ import java.time.LocalDateTime;
 public class BaseEntity implements Serializable {
 
 	/**
+	 * 用户UUID
+	 */
+	@TableField(fill = FieldFill.INSERT)
+	private String userUuid;
+
+	/**
 	 * 创建者
 	 */
 	@TableField(fill = FieldFill.INSERT)

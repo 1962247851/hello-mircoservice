@@ -112,6 +112,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 			OrdinaryroadUser ordinaryroadUser = (OrdinaryroadUser) authentication.getUserAuthentication().getPrincipal();
 			additionalInfo.put(SecurityConstants.DETAILS_LICENSE, SecurityConstants.PROJECT_LICENSE);
 			additionalInfo.put(SecurityConstants.DETAILS_USER_ID, ordinaryroadUser.getId());
+			additionalInfo.put(SecurityConstants.DETAILS_USER_UUID, ordinaryroadUser.getUuid());
 			additionalInfo.put(SecurityConstants.DETAILS_USERNAME, ordinaryroadUser.getUsername());
 			additionalInfo.put(SecurityConstants.DETAILS_DEPT_ID, ordinaryroadUser.getDeptId());
 			((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(additionalInfo);

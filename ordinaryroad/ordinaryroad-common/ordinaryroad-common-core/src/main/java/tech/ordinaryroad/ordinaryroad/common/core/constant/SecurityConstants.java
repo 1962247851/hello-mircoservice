@@ -100,6 +100,11 @@ public interface SecurityConstants {
 	String DETAILS_USER_ID = "user_id";
 
 	/**
+	 * 用户UUID字段
+	 */
+	String DETAILS_USER_UUID = "user_uuid";
+
+	/**
 	 * 用户名字段
 	 */
 	String DETAILS_USERNAME = "username";

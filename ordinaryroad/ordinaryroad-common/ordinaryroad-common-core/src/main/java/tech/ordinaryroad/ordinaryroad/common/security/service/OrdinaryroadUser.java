@@ -36,6 +36,12 @@ public class OrdinaryroadUser extends User {
 	private final Integer id;
 
 	/**
+	 * 用户UUID
+	 */
+	@Getter
+	private final String uuid;
+
+	/**
 	 * 部门ID
 	 */
 	@Getter
@@ -60,11 +66,12 @@ public class OrdinaryroadUser extends User {
 	 * @throws IllegalArgumentException if a <code>null</code> value was passed either as
 	 * a parameter or as an element in the <code>GrantedAuthority</code> collection
 	 */
-	public OrdinaryroadUser(Integer id, Integer deptId, String username, String password, boolean enabled,
+	public OrdinaryroadUser(Integer id, String uuid, Integer deptId, String username, String password, boolean enabled,
 			boolean accountNonExpired, boolean credentialsNonExpired, boolean accountNonLocked,
 			Collection<? extends GrantedAuthority> authorities) {
 		super(username, password, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked, authorities);
 		this.id = id;
+		this.uuid = uuid;
 		this.deptId = deptId;
 	}
 

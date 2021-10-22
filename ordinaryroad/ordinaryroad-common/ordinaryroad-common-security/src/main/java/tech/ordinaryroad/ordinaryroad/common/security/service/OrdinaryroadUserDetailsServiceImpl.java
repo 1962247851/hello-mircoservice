@@ -112,7 +112,7 @@ public class OrdinaryroadUserDetailsServiceImpl implements UserDetailsService {
 		SysUser user = info.getSysUser();
 
 		// 构造security用户
-		return new OrdinaryroadUser(user.getUserId(), user.getDeptId(), user.getUsername(),
+		return new OrdinaryroadUser(user.getUserId(), user.getUuid(), user.getDeptId(), user.getUsername(),
 				SecurityConstants.BCRYPT + user.getPassword(),
 				StrUtil.equals(user.getLockFlag(), CommonConstants.STATUS_NORMAL), true, true, true, authorities);
 	}
