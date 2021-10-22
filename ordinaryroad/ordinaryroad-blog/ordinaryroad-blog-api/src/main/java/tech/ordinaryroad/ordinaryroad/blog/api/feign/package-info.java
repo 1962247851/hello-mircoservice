@@ -1,0 +1,1 @@
+package tech.ordinaryroad.ordinaryroad.blog.api.feign;
