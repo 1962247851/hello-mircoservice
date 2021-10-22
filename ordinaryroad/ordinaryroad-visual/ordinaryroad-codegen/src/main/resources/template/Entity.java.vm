@@ -15,7 +15,7 @@
  * Author: lengleng (wangiegie@gmail.com)
  */
 #set($excludeColumns = ["create_time","update_time","create_by","update_by"])
-package ${package}.${moduleName}.entity;
+package ${package}.${moduleName}.api.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

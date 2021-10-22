@@ -2,7 +2,7 @@
 
 -- 菜单SQL
 insert into `sys_menu` ( `parent_id`, `path`, `permission`, `type`, `icon`, `del_flag`, `create_time`, `sort`, `update_time`, `name`)
-    values ( '1000', '/${moduleName}/${pathName}/index', '', '0', 'icon-bangzhushouji', '0', '2018-01-20 13:17:19', '8', '2018-07-29 13:38:19', '${comments}管理');
+    values ( '10002', '/${moduleName}/${pathName}/index', '', '0', 'icon-bangzhushouji', '0', '2018-01-20 13:17:19', '8', '2018-07-29 13:38:19', '${comments}管理');
 
 -- 按钮父菜单ID
 set @parentId = @@identity;

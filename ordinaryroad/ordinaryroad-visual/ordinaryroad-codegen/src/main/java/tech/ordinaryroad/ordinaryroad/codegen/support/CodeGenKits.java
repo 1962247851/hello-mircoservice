@@ -345,7 +345,8 @@ public class CodeGenKits {
 		}
 
 		if (template.contains(ENTITY_JAVA_VM)) {
-			return packagePath + "entity" + File.separator + className + ".java";
+			return packagePath + File.separator + "api" + File.separator +
+					"entity" + File.separator + className + ".java";
 		}
 
 		if (template.contains(MAPPER_JAVA_VM)) {

@@ -23,7 +23,7 @@
 
 <mapper namespace="${package}.${moduleName}.mapper.${className}Mapper">
 
-  <resultMap id="${classname}Map" type="${package}.${moduleName}.entity.${className}">
+  <resultMap id="${classname}Map" type="${package}.${moduleName}.api.entity.${className}">
 #foreach($column in $columns)
 #if($column.lowerAttrName==$pk.lowerAttrName)
     <id property="${pk.lowerAttrName}" column="${pk.columnName}"/>
